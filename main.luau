@@ -38,24 +38,24 @@ local function LoadModules()
     print("📦 LZ Hub: Loading modules...")
     
     -- Load Library
-    local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Library/UI.luau"))()
+    local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Library/UI.luau"))()
     
     -- Load Utils
-    local Utility = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Utils/Utility.luau"))()
-    local Settings = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Utils/Settings.luau"))()
+    local Utility = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Utils/Utility.luau"))()
+    local Settings = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Utils/Settings.luau"))()
     
     -- Load Modules
     local Modules = {
-        AntiAFK = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/AntiAFK.luau"))(),
-        Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/Aimbot.luau"))(),
-        ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/ESP.luau"))(),
-        Teleport = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/Teleport.luau"))(),
-        AutoFarmLevel = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/AutoFarmLevel.luau"))(),
-        AutoFarmChest = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/AutoFarmChest.luau"))(),
-        AutoFarmBoss = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/AutoFarmBoss.luau"))(),
-        AutoRaid = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/AutoRaid.luau"))(),
-        FruitSniper = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/FruitSniper.luau"))(),
-        FastMode = loadstring(game:HttpGet("https://raw.githubusercontent.com/username/LZHub/main/Modules/FastMode.luau"))(),
+        AntiAFK = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/AntiAFK.luau"))(),
+        Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/Aimbot.luau"))(),
+        ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/ESP.luau"))(),
+        Teleport = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/Teleport.luau"))(),
+        AutoFarmLevel = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/AutoFarmLevel.luau"))(),
+        AutoFarmChest = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/AutoFarmChest.luau"))(),
+        AutoFarmBoss = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/AutoFarmBoss.luau"))(),
+        AutoRaid = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/AutoRaid.luau"))(),
+        FruitSniper = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/FruitSniper.luau"))(),
+        FastMode = loadstring(game:HttpGet("https://raw.githubusercontent.com/lizarus666/LZHub/main/Modules/FastMode.luau"))(),
     }
     
     -- Initialize modules dengan dependency
